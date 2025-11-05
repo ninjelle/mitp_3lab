@@ -27,6 +27,9 @@
     <Compile Include="Counter class.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="StrategyPattern.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Student class.py" />
     <Compile Include="TestCalculator.py">
       <SubType>Code</SubType>
