@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36603.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "МИТП_лр3", "МИТП_лр3\МИТП_лр3.pyproj", "{9225FCE6-217D-42B0-BF2D-DCD4E8D7903E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9225FCE6-217D-42B0-BF2D-DCD4E8D7903E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9225FCE6-217D-42B0-BF2D-DCD4E8D7903E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18B6FA6B-15DA-4107-9C3A-80899246E461}
+	EndGlobalSection
+EndGlobal
