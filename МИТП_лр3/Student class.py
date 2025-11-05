@@ -23,8 +23,14 @@ class Student:
     
     def __str__(self):
         grade_info = f", Grade: {self.grade:.2f}" if self.grade else ""
-        return f"Student {self.name} ({self.student_id}) - {self.major}{grade_info}"
-    
+        return f"\nStudent {self.name} ({self.student_id}) - {self.major}{grade_info}\n"
+
+    @staticmethod
+    def get_student_by_id(students_list, student_id):
+        for student in students_list:
+            if student.student_id == student_id:
+                return student
+        return None
 
 if __name__ == "__main__":
         student1 = Student("Zvereva Ekaterina Konstantinovna", 20, "ST2024001", "Software engineering", 4.5)
@@ -34,10 +40,16 @@ if __name__ == "__main__":
         student1.display_info()
 
     
-        print("\n" + "="*50)
         print("Students list:")
         students = [student1, student2, student3]
         for i, student in enumerate(students, 1):
             print(f"{i}. {student}")
-        print("\n")
+   
         print(student2)
+
+        found_student = Student.get_student_by_id(students, "ST2024002")
+        if found_student:
+            print(f"Found student: {found_student.name}")
+            found_student.display_info()
+        else:
+            print("Student not found")
